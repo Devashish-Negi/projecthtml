@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: window-width;
+    height: auto;
+    background-image: url('/website/images/line-shape\ \(1\).svg');
+    vertical-align: 0%;
+    background-repeat: no-repeat;
+}
+#topbar{
+    padding: 12px;
+    padding-left: 85px;
+    padding-right: 85px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #C5A261;
+
+}
+#topbar div{
+    color: white;
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 12px;
+}
+#topbar div a{
+    color: white;
+    text-decoration: none;
+}
+#topbar div a:hover{
+    text-decoration: underline;
+}
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 15px 10px;
+}
+nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 25px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-size: small;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #C5A261;
+    transition: 0.3s;
+}
+#invena{
+    width: 155px;
+    margin: 20px 0 20px 85px;
+}
+#book {
+    padding: 15px 20px;
+    background-color: #C5A261;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+}
+#book:hover{
+    color:peru;
+    transition:cubic-bezier(1, 0, 0, 1) 0.5s;
+    background-color: rgb(224, 224, 224);
+    border: 2px solid #C5A261;
+}
+#more {
+    padding: 15px 20px;
+    background-color: rgb(234, 234, 234);
+    color: rgb(110, 110, 110);
+    border: 0px solid rgb(143, 143, 143);
+    border-radius: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+#more:hover{
+    color: rgb(110, 110, 110);
+    transition:cubic-bezier(1, 0, 0, 1) 0.3s;
+    background-color: rgb(246, 246, 246);
+    border: 0px solid rgb(233, 233, 233);
+}
+#line{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(113, 113, 113);
+    text-align: center;
+    margin-top: 40px;
+}
+#line img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    color: rgb(38, 38, 38);
+    width: 70%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight:light;
+    margin-bottom: 20px;
+    color: rgb(125, 125, 125);
+    text-align: center;
+}
+#images{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#images img{
+    width: 270px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0.1, 0.1, 0.1, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+#images img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.one{
+    display: flex;
+    gap: 70px;
+    margin: 80px;
+}
+.one1 {
+    display: flex;
+    gap: 30px;
+}
+.one1 div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 40px;
+    padding-right: 80px;
+    border-radius: 10%;
+    color: rgb(124, 124, 124);
+    background-color: rgb(255, 244, 230);
+}
+.one1 div p{
+    font-size: 40px;
+    font-weight: 650;
+    color: #C5A261;
+    margin-bottom: 10px;
+}
+.pic {
+    margin-top: 30px;
+    display: flex;
+}
+.pic img{
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+.pic div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(74, 74, 74);
+    text-align: left;
+}
+.large{
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.large p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: #C5A261;
+    width:150px;
+    height: 150px;
+    border-radius: 10%;
+}
+.small{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -250px;
+}
